@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('posts/view', 'PostController@view');
+Route::resource('posts', 'PostController', ['except' => ['create', 'show', 'edit']]);
