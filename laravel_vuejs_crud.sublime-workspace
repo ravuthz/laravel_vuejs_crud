@@ -1,0 +1,517 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"del",
+				"delete"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"generate",
+				"generatePDF"
+			],
+			[
+				"ht",
+				"html	html"
+			],
+			[
+				"list",
+				"list_order	(receipt_print.php)"
+			],
+			[
+				"w",
+				"width	Attr"
+			],
+			[
+				"sub",
+				"subTotal"
+			],
+			[
+				"uni",
+				"unit_price"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"rec",
+				"receipt"
+			],
+			[
+				"head",
+				"header	<header>"
+			],
+			[
+				"pdf",
+				"pdfcrowd	(receipt.php)"
+			],
+			[
+				"clas",
+				"classes"
+			],
+			[
+				"ba",
+				"bank"
+			],
+			[
+				"text",
+				"textarea	<textarea>"
+			],
+			[
+				"bank",
+				"bank_no"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"sql",
+				"sqlOrderProducts"
+			],
+			[
+				"product_",
+				"products_order"
+			],
+			[
+				"produ",
+				"product	(index.php)"
+			],
+			[
+				"order",
+				"order_id"
+			],
+			[
+				"tot",
+				"total_price"
+			],
+			[
+				"sesso",
+				"session_get"
+			],
+			[
+				"sele",
+				"selectOneObject"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"see",
+				"selectOneObject"
+			],
+			[
+				"PAGE",
+				"PAGE_FOOTER	(index.php)"
+			],
+			[
+				"lin",
+				"links	link - search"
+			],
+			[
+				"echo",
+				"echo_if	(helper.php)"
+			],
+			[
+				"ke",
+				"key"
+			],
+			[
+				"link_",
+				"link_to	(profile.php)"
+			],
+			[
+				"link_to",
+				"link_button	(helper.php)"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"cit",
+				"city"
+			],
+			[
+				"user",
+				"user"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "laravel_vuejs_crud.sublime-project",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 384.0,
+		"selected_items":
+		[
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pic",
+				"Package Control: Install Package"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 131.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud"
+	],
+	"file_history":
+	[
+		"/C/Users/Ravuthz/Desktop/note.md",
+		"/C/Users/Ravuthz/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ravuthz/AppData/Roaming/Sublime Text 3/Packages/Seti_UI/Widgets/console.sublime-syntax",
+		"/C/Users/Ravuthz/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Main.sublime-menu",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/.gitignore",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/app/Http/Controllers/PostController.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/app/Post.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/routes/web.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/vendor/symfony/routing/Route.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/database/seeds/UsersTableSeeder.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/database/seeds/DatabaseSeeder.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/resources/views/vuejs/index.blade.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/public/web.config",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/vendor/laravel/framework/src/Illuminate/Foundation/Testing/WithoutEvents.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/readme.md",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/vendor/sebastian/resource-operations/src/ResourceOperations.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/vendor/league/flysystem/build/prepare_osx_env.sh",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/package.json",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/database/migrations/2016_11_26_184118_create_posts_table.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/.env",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/note.md",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/database/migrations/2016_11_26_182005_create_posts_table.php",
+		"/D/YO Ravuthz/Code/laravel_vuejs_crud/app/help.php",
+		"/C/Users/Ravuthz/.bashrc",
+		"/C/Other/Cmder/config/.bashrc",
+		"/C/Other/Cmder/bin/alias.bat",
+		"/C/Users/Ravuthz/.bash_profile",
+		"/C/xampp/htdocs/base_ecom/products/receipt.php",
+		"/C/xampp/htdocs/base_ecom/products/order.php",
+		"/C/xampp/htdocs/base_ecom/products/checkout.php",
+		"/C/xampp/htdocs/base_ecom/products/receipt_print.php",
+		"/C/xampp/htdocs/base_ecom/products/list_order.php",
+		"/C/xampp/htdocs/base_ecom/app/helper.php",
+		"/C/xampp/htdocs/base_ecom/app/views/navbar.php",
+		"/C/xampp/htdocs/base_ecom/categories/index.php",
+		"/C/xampp/htdocs/base_ecom/products/form_bank.php",
+		"/C/xampp/htdocs/base_ecom/config.php",
+		"/C/xampp/htdocs/base_ecom/app/classes/pdfcrowd.php",
+		"/C/xampp/htdocs/base_ecom/app/models/Bank.php",
+		"/C/xampp/htdocs/base_ecom/products/index.php",
+		"/C/xampp/htdocs/base_ecom/products/cart.php",
+		"/C/xampp/htdocs/base_ecom/app/views/header.php",
+		"/C/xampp/htdocs/base_ecom/account/register.php",
+		"/C/xampp/htdocs/base_ecom/assets/fonts/glyphicons-halflings-regular.svg",
+		"/C/xampp/htdocs/base_ecom/users/profile.php",
+		"/C/xampp/htdocs/base_ecom/users/index.php",
+		"/C/Users/Ravuthz/AppData/Roaming/Sublime Text 3/Packages/User/phpfmt.sublime-settings",
+		"/C/xampp/htdocs/laravel53/site/composer.json",
+		"/C/Users/Ravuthz/.zshrc",
+		"/C/Users/Ravuthz/oh-my-zsh-master/oh-my-zsh.sh"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"items",
+			"CREATE DATABASE laravel_vuejs_crud CHARACTER SET utf8 COLLATE utf8_general_ci;",
+			"'",
+			"bnsp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "laravel_vuejs_crud.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "laravel_vuejs_crud.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"postc",
+				"app\\Http\\Controllers\\PostController.php"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"post",
+				"app\\Post.php"
+			],
+			[
+				"h",
+				"app\\helper.php"
+			],
+			[
+				"help",
+				"app\\helper.php"
+			],
+			[
+				"orde",
+				"products\\order.php"
+			],
+			[
+				"car",
+				"products\\cart.php"
+			],
+			[
+				"hle",
+				"app\\helper.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"folders":
+	[
+		{
+            "name": "Laravel VueJs CRUD",
+            "follow_symlinks": true,
+            "file_exclude_patterns": [
+                ".*",
+                "artisan",
+                "server.php",
+                "yarn.lock",
+                "phpunit.xml",
+                "composer.lock"
+            ],
+            "folder_exclude_patterns": [
+                "bootstrap",
+                "config",
+                "node_modules",
+                "public",
+                "storage",
+                "tests",
+                "vendor",
+            ],
+			"path": "."
+		}
+	],
+    "settings": {
+        "tab_size": 4
+    }
+}
