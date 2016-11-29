@@ -1,40 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img width="150"src="https://laravel.com/laravel.png"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+# Laravel VueJS CRUD
 
-## About Laravel
+1. Config Database: .env
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+    ```
+    DB_DATABASE=laravel_vuejs_crud
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+2. Create Database: laravel_vuejs_crud
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+    ```sql
+    CREATE DATABASE laravel_vuejs_crud CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+    ```
 
-## Learning Laravel
+3. Create Model, Migration, Controller for : Post
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+    ```php
+    php artisan make:model Post -m -c
+    php artisan migrate
+    ```
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+4. Generate Auth & Seed Users
 
-## Contributing
+    ```php
+    php artisan make:auth
+    php artisan make:seed UsersTableSeeder
+    php artisan migrate --seed
+    ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+5. Code Model, Controller & Route
+	* Prepare Sublime Project WorkSpace: laravel_vuejs_crud.sublime-project
+  
+		```javascript
+        {
+            "folders":
+            [
+                {
+                    "name": "Laravel VueJs CRUD",
+                    "follow_symlinks": true,
+                    "file_exclude_patterns": [
+                        ".*",
+                        "artisan",
+                        "server.php",
+                        "yarn.lock",
+                        "phpunit.xml",
+                        "composer.lock"
+                    ],
+                    "folder_exclude_patterns": [
+                        "bootstrap",
+                        "config",
+                        "node_modules",
+                        "public",
+                        "storage",
+                        "tests",
+                        "vendor",
+                    ],
+                    "path": "."
+                }
+            ],
+            "settings": {
+                "tab_size": 4
+            }
+        }
+        ```
+	* Install Gulp Depedencies
+  
+		```node
+      	install node
+      	npm install --global gulp-cli
+      	npm install
+      	```
+	* Code Views & Layout
+      
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+PLAN
+---
+- [x] Create Laravel 5.3
+- [x] Config & Create Database
+- [x] Generate Model, Migration & Controller
+- [x] Generate Auth & Seed Users
+- [x] Code Post: Model, Controller & Route [ add fillable, json functions ]
+- [x] Code Post: Views & Layout [ create vuejs views ]
+- [ ] Impove the code structure
